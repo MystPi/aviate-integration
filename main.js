@@ -26,7 +26,7 @@ posts.forEach(async (post) => {
     left.appendChild(a);
     left.appendChild(i);
 
-    // Scratch Addons (https://scratchaddons.com) 'my-ocular integration' workarounds
+    // Scratch Addons (https://scratchaddons.com) "ocular integration" workarounds
 
     waitForElm(left, 'i[style]').then((el) => {
       el.remove();
