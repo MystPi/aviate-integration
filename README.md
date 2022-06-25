@@ -14,9 +14,9 @@ First, enable developer mode in your browser by heading to chrome://extensions (
 
 ![image](https://user-images.githubusercontent.com/86574651/175783629-950a545d-9d46-43e8-b050-2dbe3c14e55e.png)
 
-Next, download the zipped repository and unzip it.
+Next, download the latest zipped release [here](https://github.com/MystPi/aviate-integration/releases/latest) and unzip it.
 
-![image](https://user-images.githubusercontent.com/86574651/175783799-621096e3-425f-4d42-9301-2886c5931188.png)
+![image](https://user-images.githubusercontent.com/86574651/175790005-83b111c0-9658-4b28-a60f-6ba62d9e775e.png)
 
 Finally, at the extensions page, click "Load unpacked" and select the downloaded folder. You should now be able to use the extension!
 
