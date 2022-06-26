@@ -17,10 +17,10 @@ posts.forEach(async (post) => {
     img.src = chrome.runtime.getURL('icons/icon.svg');
     img.width = 13;
     img.height = 13;
-    img.style.marginRight = '0.25em';
     img.style.verticalAlign = 'middle';
     a.href = 'https://aviateapp.eu.org';
     a.target = '_blank';
+    a.style.marginRight = '0.25em';
     a.appendChild(img);
     left.appendChild(document.createElement('br'));
     left.appendChild(a);
