@@ -1,4 +1,4 @@
-# Aviate Integration
+# [Aviate](https://aviateapp.eu.org) Integration
 Integrate Aviate with the Scratch Discussion Forums.
 
 > **Note**\
