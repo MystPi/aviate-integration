@@ -1,4 +1,5 @@
 const posts = document.querySelectorAll('.blockpost');
+const loggedInUser = document.querySelector('.user-name.dropdown-toggle');
 const cache = Object.create(null);
 
 posts.forEach(async (post) => {
@@ -46,7 +47,11 @@ posts.forEach(async (post) => {
 });
 
 async function fetchStatus(username) {
-  const res = await fetch(`https://aviateapp.eu.org/api/${username}`);
+  const res = await fetch(
+    `https://aviateapp.eu.org/api/${username}?visitor=${
+      loggedInUser ? loggedInUser.innerText : ''
+    }`
+  );
   const { status } = await res.json();
   return status;
 }
