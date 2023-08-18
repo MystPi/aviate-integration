@@ -46,7 +46,7 @@ posts.forEach(async (post) => {
 });
 
 async function fetchStatus(username) {
-  const res = await fetch(`https://aviateapp.eu.org/api/${username}`);
+  const res = await fetch(`https://aviate.scratchers.tech/api/${username}`);
   const { status } = await res.json();
   return status;
 }
